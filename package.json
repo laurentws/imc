@@ -7,13 +7,17 @@
     "react-dom": "^16.5.2",
     "react-scripts": "1.1.5"
   },
+  "engines": {
+    "npm": "6.4.0",
+    "node": "8.3.0"
+  },
   "scripts": {
     "build": "yarn sass:build && react-scripts build",
     "eject": "react-scripts eject",
     "compile:sass": "node-sass --include-path src/styles/scss src/styles/scss/main.scss src/styles/css/main.css -w",
     "sass:watch": "node-sass -w src/styles/scss -o src/styles/css",
     "sass:build": "node-sass src/styles/scss -o src/styles/css --source-map true",
-    "start": "yarn run sass:build && react-scripts start",
+    "start": "react-scripts start",
     "test": "react-scripts test --env=jsdom"
   },
   "devDependencies": {
