@@ -1,0 +1,22 @@
+.imc {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  box-shadow: 0 1rem 2rem rgba($color-black, .2);
+
+  &__box {
+    width: 50rem;
+    padding: 5rem;
+    text-align: center;
+  }
+
+  &__resultat {
+    
+  }
+
+  &__interpretation {
+    
+  }
+}
